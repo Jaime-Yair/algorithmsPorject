@@ -7,6 +7,10 @@ The program reads an input file containing the details of the omnidroid's parts 
 
 ## Files in the project
 
+1. First list item
+   - First nested list item
+     - Second nested list item
+
 omnidroid.py:
 
 The main Python script that implements the memoized dynamic programming solution.
