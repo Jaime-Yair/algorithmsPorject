@@ -18,7 +18,7 @@ The program reads an input file containing the details of the omnidroid's parts 
 The program:
 
 1. Parses the input file to extract:
-   - The number of parts (n) and dependencies (m).
+   - The number of parts (`n`) and dependencies (`m`).
    - The dependencies of each part.
    - The base sprocket cost of each part.
 2. Uses dynamic programming with memoization to compute the total sprocket cost:
@@ -32,9 +32,9 @@ The program:
 
 The input file should have the following structure:
 
-1. First line: Two integers, n (number of parts) and m (number of dependencies).
-2. Next m lines: Pairs of integers, i and j, indicating that part i is used in the construction of part j.
-3. Next n lines: Integers indicating the base sprocket cost for each part, in order from part 0 to part n-1.
+1. First line: Two integers, `n` (number of parts) and `m` (number of dependencies).
+2. Next `m` lines: Pairs of integers, `i` and `j`, indicating that part i is used in the construction of part `j`.
+3. Next `n` lines: Integers indicating the base sprocket cost for each part, in order from part `0` to part `n-1`.
 
 
 ## How to Compile and Run
@@ -59,10 +59,3 @@ The input file should have the following structure:
 ## Expected Output
 The program prints a message to the console summarizing the number of parts, dependencies, and the total sprocket cost. For example:
 `An omnidroid with <n> parts and <m> dependencies, takes <X> sprockets to build.`
-
-
-
-
-
-
-
