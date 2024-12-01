@@ -7,15 +7,8 @@ The program reads an input file containing the details of the omnidroid's parts 
 
 ## Files in the project
 
-1. First list item
-   - First nested list item
-     - Second nested list item
-
-omnidroid.py:
-
-The main Python script that implements the memoized dynamic programming solution.
-Input File(s):
-
-Use `git status` to list all new or modified files that haven't yet been committed.
-
-Text files containing information about the parts, dependencies, and sprocket costs. Examples include example-input.txt and big-input.txt.
+1. `omnidroid.py`:
+   - The main Python script that implements the memoized dynamic programming solution.
+  
+2.Input File(s):
+   - Text files containing information about the parts, dependencies, and sprocket costs. Examples include `example-input.txt' and `big-input.txt'.
