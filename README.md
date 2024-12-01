@@ -25,6 +25,7 @@ The program:
    - For each part, the algorithm recursively calculates the cost by summing the cost of its dependencies and its base sprocket cost.
    - Computed results are stored in a memoization dictionary to avoid redundant calculations.
 3. Outputs the total cost in the format:
+```An omnidroid with <n> parts and <m> dependencies, takes <X> sprockets to build.```
 
 
 
