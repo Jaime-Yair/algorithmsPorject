@@ -11,4 +11,4 @@ The program reads an input file containing the details of the omnidroid's parts 
    - The main Python script that implements the memoized dynamic programming solution.
   
 2.Input File(s):
-   - Text files containing information about the parts, dependencies, and sprocket costs. Examples include `example-input.txt' and `big-input.txt'.
+   - Text files containing information about the parts, dependencies, and sprocket costs. Examples include `example-input.txt` and `big-input.txt`.
